@@ -10,6 +10,7 @@
 		E27D78F324B23D05007E0846 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E27D78F224B23D05007E0846 /* main.cpp */; };
 		E27D78FB24B23D20007E0846 /* stack_array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E27D78F924B23D20007E0846 /* stack_array.cpp */; };
 		E27D78FE24B23E6C007E0846 /* stack_list.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E27D78FC24B23E6C007E0846 /* stack_list.cpp */; };
+		E27D790124B2468C007E0846 /* queue_linked.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E27D78FF24B2468C007E0846 /* queue_linked.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		E27D78FA24B23D20007E0846 /* stack_array.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = stack_array.hpp; sourceTree = "<group>"; };
 		E27D78FC24B23E6C007E0846 /* stack_list.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = stack_list.cpp; sourceTree = "<group>"; };
 		E27D78FD24B23E6C007E0846 /* stack_list.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = stack_list.hpp; sourceTree = "<group>"; };
+		E27D78FF24B2468C007E0846 /* queue_linked.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = queue_linked.cpp; sourceTree = "<group>"; };
+		E27D790024B2468C007E0846 /* queue_linked.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = queue_linked.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +71,8 @@
 				E27D78FA24B23D20007E0846 /* stack_array.hpp */,
 				E27D78FC24B23E6C007E0846 /* stack_list.cpp */,
 				E27D78FD24B23E6C007E0846 /* stack_list.hpp */,
+				E27D78FF24B2468C007E0846 /* queue_linked.cpp */,
+				E27D790024B2468C007E0846 /* queue_linked.hpp */,
 			);
 			path = dscpp;
 			sourceTree = "<group>";
@@ -129,6 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E27D790124B2468C007E0846 /* queue_linked.cpp in Sources */,
 				E27D78FB24B23D20007E0846 /* stack_array.cpp in Sources */,
 				E27D78F324B23D05007E0846 /* main.cpp in Sources */,
 				E27D78FE24B23E6C007E0846 /* stack_list.cpp in Sources */,
