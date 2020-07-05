@@ -7,9 +7,11 @@
 //
 
 #include <iostream>
+#include "stack_array.hpp"
+#include "stack_list.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
-    return 0;
+    return test_stack_list();
 }
